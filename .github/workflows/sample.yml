@@ -1,12 +1,12 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is learning GitHub Actions #Run Name
 on: [push]
 jobs:
-  job1:
+  job1:                                                  #Job Name
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
         uses: actions/checkout@v4
-      - run: echo Hello World
+      - run: Hello World
         name: Run echo command
 
