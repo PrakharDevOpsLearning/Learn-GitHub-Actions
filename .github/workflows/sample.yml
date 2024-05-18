@@ -7,6 +7,11 @@ jobs:
     steps:
       - name: Code Checkout
         uses: actions/checkout@v4
-      - run: Hello World
-        name: Run echo command
-
+      - run: echo
+        name: Run Code build
+      - run: echo
+        name: Run Code Test
+      - run: echo
+        name: Run Code Review
+      - run: echo
+        name: Run Code Release
